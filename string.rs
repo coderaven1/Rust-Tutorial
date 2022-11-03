@@ -14,16 +14,16 @@ fn str_literal() {
     // String literals are static by default. 
     // This means that string literals are guaranteed to be valid for the duration of the entire program. 
     // We can also explicitly specify the variable as static
-   //  println!("Name : {} Mail : {}", name, mail);
+    //  println!("Name : {} Mail : {}", name, mail);
     println!("Name : {}", name);
     println!("Mail : {}", mail);
 
     
     // We can also explicitly specify the variable as static by using &'static str
     // (&'static str)
-     let address:&'static str = "New York";
+    let address:&'static str = "New York";
 
-     println!("Address : {}", address);
+    println!("Address : {}", address);
 }
 
 /**
