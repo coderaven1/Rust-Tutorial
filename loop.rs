@@ -1,7 +1,9 @@
 /**
  * Loop
  * A loop statement allows us to execute a statement or group of statements multiple times.
- * Rust provides different types of loops to handle looping requirements −
+ * Rust provides different types of loops to handle looping requirements.
+ *
+ * ~ List of supported loop in rust
  * - while
  * - loop
  * - for
